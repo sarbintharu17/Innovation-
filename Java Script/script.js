@@ -262,6 +262,250 @@
 // console.log("he got total marks: "+(dsa+dbms))
 // console.log(`he got total marks: ${dsa + dbms}`)
 
+// for(initialize, condition, operation){
+// statement
+// }
+
+// for(let a = 1; a<=5; a++)
+//     {
+//         if(a == 3)
+//         {
+//             // continue
+//             break
+//         }
+//         console.log(a)
+//     }
+
+// for(let a = 1; a<=20; a++){
+//     if(a%2 !== 0){
+//         continue
+//     }
+//     console.log(2+"*"+ a+ "=" +(2*a))
+// }
+
+// let a = 1
+// while(a <= 5){
+//     console.log(a)
+//     a++
+// }
+
+// function sayHello(){
+//     console.log("Hello")
+// }
+
+// sayHello()
+
+// parameters and arguments
+
+// function greet(name){
+//     console.log(`hello ${name}`)
+// }
+// greet("Mohan")
+
+// return
+
+// function addNum(a, b){
+//     return a + b
+// }
+// if(addNum(2,2)>4){
+//     console.log("Greater")
+// }
+// // console.log(addNum(2,3))
+
+// let result = addNum(5,6)
+// console.log(result)
+
+// if(addNum(3,4)){
+//     console.log("printed")
+// }
+// expression function
+// const myFunction = function(name){
+//     console.log("hello "+name)
+// }
+
+// myFunction("hari")
+// // arrow function
+
+// const anotherFunction = (name) =>{
+//     console.log("hello "+name)
+// } 
+// anotherFunction("Ram")
+
+// Ternary Operator
+// (condition ? "First statement" : "Second statement")
+
+// let x = (4>5) ? true : false;
+// console
+
+// Switch Statement
+// intialize a variable
+
+// var ticketNumber = 200
+
+// switch(ticketNumber){
+//     case 100:
+//         console.log("Bahubali Movie")
+//         break;
+//     case 200:
+//         console.log("Gajani")
+//         break;
+    
+//     case 300:
+//         console.log("KGF")
+//         break;
+    
+//     default:
+//         console.log("Invalid ticket number")
+//         break
+// }
+
+// String
+
+// let myString = "Hello World"
+// console.log(typeof myString)
+
+// let sentence = `i like that car's color "black"`
+// console.log(sentence)
+
+// Concatination / Interpolation
+// add two strings
+
+// let fName = "Bikash"
+// let lName = "Chaudhary"
+
+// let fullName = fName + lName
+// console.log(fullName)
+
+// let rollNo = 5
+// let marks = 90
+
+// console.log("Student whose roll number is " + rollNo + " got gpa " + marks)
+
+// console.log(`Student whose roll number is ${rollNo} got gpa ${marks}`)
 
 
-console.log("Hello World")
+// let dsa = 40
+// let dbms = 45
+
+// console.log(dsa + dbms)
+// console.log("He got total marks: " +(dsa+dbms))
+
+// console.log(`He got total marks: ${dsa + dbms}`)
+
+// STRING LENGTH
+// Returns the number of characters in a string
+// let str = "Hello World"
+// console.log(str.length)
+
+
+// charAt()
+// Returns the character at the specified index
+console.log(str.charAt(1))
+
+
+// // charCodeAt()
+// // Returns the Unicode (ASCII) value of a character
+// console.log(str.charCodeAt(0))
+
+// // codePointAt()
+// // Returns the Unicode code point of a character
+// console.log("😊".codePointAt(0))
+
+// // concat()
+// // Joins two or more strings
+
+// let firstName = "Bikash"
+// let lastName = "Chaudhary"
+// console.log(firstName.concat(" ", lastName))
+
+// // at()
+// // Returns character at a given index
+// // Supports negative indexing
+// console.log(str.at(0))
+// console.log(str.at(-1))
+
+// // [] Bracket Notation
+// // Accesses character using index
+// console.log(str[4]); // o
+
+
+// // slice(start, end)
+// // Extracts part of a string
+// // End index is not included
+// // Supports negative indexes
+// console.log(str.slice(0, 5))
+// console.log(str.slice(-5))
+
+// // substring(start, end)
+// // Similar to slice()
+// // Does NOT support negative indexes
+// console.log(str.substring(0, 5))
+
+// // substr(start, length)
+// // Extracts characters using length
+// // Deprecated (avoid in modern code)
+// console.log(str.substr(6, 5))
+
+// // toUpperCase()
+// // Converts all letters to uppercase
+// console.log(str.toUpperCase())
+
+
+// // toLowerCase()
+// // Converts all letters to lowercase
+// console.log(str.toLowerCase())
+
+// // isWellFormed()
+// // Checks if a string contains valid Unicode
+// console.log("Hello".isWellFormed())
+
+// // toWellFormed()
+// // Replaces invalid Unicode sequences
+// console.log("Hello".toWellFormed())
+
+
+// // trim()
+// // Removes spaces from both ends
+// let name = "  Bikash  "
+// console.log(name.trim())
+
+// // trimStart()
+// // Removes spaces from the beginning
+// console.log(name.trimStart())
+
+
+// // trimEnd()
+// // Removes spaces from the end
+// console.log(name.trimEnd())
+
+
+// // padStart(targetLength, padString)
+// // Adds characters at the beginning
+// console.log("5".padStart(3, "0"))
+
+
+// // padEnd(targetLength, padString)
+// // Adds characters at the end
+// console.log("5".padEnd(3, "0"))
+
+
+// // repeat()
+// // Repeats a string specified number of times
+// console.log("Hi ".repeat(3));
+
+// // replace()
+// // Replaces only the first occurrence
+// let language = "Java is good. Java is powerful."
+// console.log(language.replace("Java", "Python"))
+
+
+// // replaceAll()
+// // Replaces all occurrences
+// console.log(language.replaceAll("Java", "Python"));
+
+
+// // split()
+// // Converts a string into an array
+// let fruits = "Apple,Banana,Mango";
+// console.log(fruits.split(","));
+
